@@ -1,6 +1,6 @@
 
 header {
-background-color:#4d4250 ;  /* cor de fundo do cabeçalho */
+background-color:#4b2409;  /* cor de fundo do cabeçalho */
 padding:15px ;  /* tamanho/preenchimento do cabeçalho*/
 display: flex; /*Responsável por tornar os itens Flex e deixar lado a lado*/
 justify-content: center; /*Organização dos conteúdos dentro do Cabeçalho*/
@@ -9,7 +9,7 @@ gap: 20px; /*Espaçamento entre os elementos (h1 e img)*/
 }
 
 header h1 {   /*ESTÁ ESTILIZANDO O TÍTULO*/
-    color: #f6d169;  /*SEMPRE COR DA LETRA*/
+    color: #bd7a22;  /*SEMPRE COR DA LETRA*/
     font-size: 30px;   /*SEMPRE PARA TAMANHO DE LETRAS*/
     font-family: Georgia, 'Times New Roman', Times, serif; /*tipo da letra*/
 
@@ -21,6 +21,63 @@ header img {  /*ESTÁ ESTILIZANDO A IMAGEM*/
 
 .comida {
 
-    background-color: #e6a972;
-    
+padding: 200px; /*preenchimento da sessão*/
+    background-color:#e79022 ;  /*cor de fundo*/
+    display: flex; /*deixando flex / lado a lado*/
+justify-content: center;  /*Justificando o conteúdo ao centro */
+align-items:center ; /*Alinhando os itens ao centro*/
+gap: 30px; /*Espaço/respiro entre os itens*/
+font-size: 15px;
+
+}
+
+.nordestina {
+    padding: 200px; /*Preenchimento do botão*/
+background-color:#4b2409 ;
+text-align: center;
+
+}
+
+
+.nordestina i {
+    font-size: 100px;  /*SEMPRE PARA TAMANHO DE LETRAS*/
+    color: #df621c;
+}
+
+
+.nordeste {
+    background-image: url(imagens/salad-2068220_1280.jpg); /*Responsável pela imagem de fundo*/
+    padding: 180px; /*Preenchimento do botão*/
+    background-repeat: no-repeat; /*Retirando a repetição da imagem no Background.*/
+    background-size: cover; /*Preechimento da área disponível da Imagem*/
+    background-position: center; /*Posicionamento da Imagem*/
+}
+
+
+.summary {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer button {
+    width: 150px; /*largura do botão*/
+    padding: 10px; /*Preenchimento do botão*/
+    background-color: #df621c;  /*cor de fundo com opacidade*/
+    color: white; /*cor da letra do botão*/
+    border-radius: 5px; /*Arredondamento do botão*/
+}
+
+
+footer {
+
+    background-color: #bd7a22;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer i {
+    font-size: 40px;
 }
