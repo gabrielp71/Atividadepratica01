@@ -1,0 +1,26 @@
+
+header {
+background-color:#4d4250 ;  /* cor de fundo do cabeçalho */
+padding:15px ;  /* tamanho/preenchimento do cabeçalho*/
+display: flex; /*Responsável por tornar os itens Flex e deixar lado a lado*/
+justify-content: center; /*Organização dos conteúdos dentro do Cabeçalho*/
+gap: 20px; /*Espaçamento entre os elementos (h1 e img)*/
+
+}
+
+header h1 {   /*ESTÁ ESTILIZANDO O TÍTULO*/
+    color: #f6d169;  /*SEMPRE COR DA LETRA*/
+    font-size: 30px;   /*SEMPRE PARA TAMANHO DE LETRAS*/
+    font-family: Georgia, 'Times New Roman', Times, serif; /*tipo da letra*/
+
+}
+
+header img {  /*ESTÁ ESTILIZANDO A IMAGEM*/
+    width: 100px; /*Largura da Logo*/
+}
+
+.comida {
+
+    background-color: #e6a972;
+    
+}
