@@ -79,5 +79,11 @@ footer {
 }
 
 footer i {
+    color:white;
     font-size: 40px;
+}
+
+/*chamado a ancora do html*/
+footer a {
+    text-decoration: none; /*tirando o traço da ancora que aparece no site*/
 }
