@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+
+/*estilizando header*/
+header {
+    padding:25px ; /*responsavel pelo preenchimento interno/tamanho*/
+    background-color: black; /*cor do fundo*/
+    display: flex; /*tornando os itens flex/lado a lado*/
+justify-content: center; /*justificando o conteudo ao centro*/
+gap: 50px; /*espaço entre os elementos*/
+align-items: center;  /*responsavel por alinhar verticalmente os itens*/
+
+}
+
+/*estilizando o icone*/
+header i {
+color: yellow; /*cor do icone*/
+font-size: 60px; /*tamanho do icone*/
+}
+
+/*estilizando o titulo*/
+header h1 {
+color: yellow; /*cor da letra*/
+font-size:36px ; /*tamanho da letra*/
+font-family: "Big Shoulders Stencil", sans-serif; /*famalia de fonte pega do google*/
+
+}
+
+/*fim do cabeçalho*/
+
+/*inicio primeira sessao*/
+
+.primeira {
+    padding:160px ; /*preechimento/tamanho*/
+    background-color: black; /*cor do fundo*/
+    display: flex; /*tornando flex/lado a lado*/
+    justify-content: center; /*justificando o conteudo ao centro*/
+    align-items: center; /*alinhamento vertical dos itens*/
+    gap: 60px; /*espaço entre os elementos*/
+}
+
+.primeira img {
+
+    width: 300px; /*largura da imagem*/
+    height: 400px; /*altura da imagem*/
+}
+
+.primeira p {
+    color: white; /*cor da letra*/
+    font-size: 30px; /*tamanho da letra*/
+    font-family: "Big Shoulders Stencil", sans-serif; /*famalia de fonte pega do google*/
+}
+
+.primeira span {
+    font-size: 45px; /*tamanho da letra*/
+    color: yellow; /*cor da letra*/
+}
+
+/*Fim da primeira sessao*/
+
+
+/*imicio da segunda sessao*/
+
+.segunda {
+    background-color: black; /*cor de fundo*/
+    padding: 160px; /*preechimento*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+
+
+}
+
+.segunda i {
+    font-size: 50px; /*tamanho do icone*/
+    color: yellow; /*cor do icone*/
+}
+
+.segunda p {
+    color: white; /*cor da letra*/
+    font-size: 30px; /*tamanho da letra*/
+    font-family: "Big Shoulders Stencil", sans-serif; /*tipo de fonte (google)*/
+    
+}
+
+/*fim daq segunda sessao*/
+
+/*inicio da terceira sessao*/
+
+.terceira {
+    padding: 200px;
+    background-image: url(imagens/spiderman-515215_1280.jpg); /*UP IMG*/
+    background-position: center center; /*posiçao da imagens*/
+    background-size: cover; /*preechimento da imagem*/
+    background-repeat: no-repeat; /*desabilitando repetiçao imagem*/
+    background-attachment: fixed; /*fixaçao da imagem*/
+
+    display: flex;
+    justify-content: center;
+}
+
+.terceira button {
+    padding: 10px;
+    width: 150px;
+    background-color: yellow;
+    color: black;
+    
+}
