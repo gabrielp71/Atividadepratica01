@@ -11,6 +11,25 @@ align-items: center;  /*responsavel por alinhar verticalmente os itens*/
 
 }
 
+/*estilizando as listas não ordenada*/
+.list-menu ul { /*altereção na lista não ordenada*/
+    display: flex; /*tornando as (li) flex/lado a lado*/
+    justify-content: center; /*deixando elas centralizadas*/
+    gap: 20px; /*espaço entre as (li)*/
+}
+
+.list-menu ul li {  /*alteração da lista (li) (elemento filho)*/
+    list-style: none; /*removendo  o estilo de lista aplicado por padrão*/
+}
+
+.list-menu ul li a {
+    text-decoration: none; /*remoção do sublinhado (decoração de texto: nenhuma)*/
+    color: yellow; /*cor das letras da lista*/
+}
+
+
+
+
 /*estilizando o icone*/
 header i {
 color: yellow; /*cor do icone*/
@@ -106,4 +125,44 @@ font-family: "Big Shoulders Stencil", sans-serif; /*famalia de fonte pega do goo
     background-color: yellow;
     color: black;
     
+}
+
+/* final da terceira sessao */
+
+/*04 sessao e div (caixas)*/
+
+.sessao-04 {
+    padding: 150px; /*preechimento/tamanho da section*/
+    background-color: black; /*cor de fundo*/
+    display: flex;  /*deixando as divs lado a lado*/
+    justify-content: space-evenly; /*justificando conteudo*/
+    gap: 10px; /*espaçamento entre as caixas*/
+
+}
+
+.sessao-04 div { /*estlizando as DIV/CAIXAS (total3)*/
+    width: 300px; /*largura da caixa*/
+    height: 300px; /*altura da caixa*/
+    background-color: yellow; /* cor de fundo da caixa*/
+    color:black; /*cor da letra*/
+}
+
+/* inicio do footer */
+
+/* footer sempre sem o ponto */
+footer {
+padding: 25px; 
+background-color: black; 
+text-align: center; /*momentâneo*/
+
+}
+
+footer p {
+    color: yellow;  /*cor da letra*/
+    font-size: 25px;  /*tamanho da letra*/
+}
+
+footer i {
+    color: yellow; /*cor do icone*/
+    font-size: 20px; /*tamanho do icone*/
 }
