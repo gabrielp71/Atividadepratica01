@@ -136,7 +136,7 @@ font-family: "Big Shoulders Stencil", sans-serif; /*famalia de fonte pega do goo
     background-color: black; /*cor de fundo*/
     display: flex;  /*deixando as divs lado a lado*/
     justify-content: space-evenly; /*justificando conteudo*/
-    gap: 10px; /*espaçamento entre as caixas*/
+    gap: 15px; /*espaçamento entre as caixas*/
 
 }
 
@@ -145,6 +145,33 @@ font-family: "Big Shoulders Stencil", sans-serif; /*famalia de fonte pega do goo
     height: 300px; /*altura da caixa*/
     background-color: yellow; /* cor de fundo da caixa*/
     color:black; /*cor da letra*/
+    text-align: center; /*estou alinhando o texto ao centro*/
+    padding: 15px; /*margem interna da caixa*/
+}
+
+.div-01 i { 
+    color: blue;
+
+}
+
+
+.div-02 { /*aqui estamos alterando a segunda caixa/div*/
+    background-image:url(imagens/dog.jpg) ; /*inserindo img*/
+    background-size: cover; /*aplicando preechimento total*/
+
+}
+
+.div-03 img {
+    width: 100px;
+    height: 100px;
+}
+
+.div-03 p {
+    font-size: 17px; /*tamanho da letra*/
+    color: blue; /*cor da letra*/
+    font-weight: 600; /*peso da fonte*/
+    line-height: 20px; /*distancia entre as linhas*/
+
 }
 
 /* inicio do footer */
